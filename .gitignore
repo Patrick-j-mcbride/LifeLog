@@ -1,0 +1,46 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/xcode/package.xcworkspace/
+
+# User-specific files
+*.xcuserstate
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Common
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/xcdebugger/
+*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcuserdata
+*.xcworkspace/xcuserdata/*
